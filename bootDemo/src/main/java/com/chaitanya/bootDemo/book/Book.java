@@ -1,10 +1,10 @@
-package com.chaitanya.bootDemo;
+package com.chaitanya.bootDemo.book;
 
 public class Book {
 
 	long id;
-	String name;
 	String author;
+	private String name;
 	public Book() {
 		
 	}

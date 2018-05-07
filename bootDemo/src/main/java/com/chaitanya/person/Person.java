@@ -1,4 +1,4 @@
-package com.chaitanya.bootDemo;
+package com.chaitanya.person;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;

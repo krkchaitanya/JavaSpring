@@ -1,4 +1,4 @@
-package com.chaitanya.bootDemo;
+package com.chaitanya.bootDemo.book;
 
 
 import java.util.ArrayList;
