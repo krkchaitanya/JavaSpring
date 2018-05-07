@@ -4,13 +4,14 @@ package com.chaitanya.bootDemo;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+//import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class BookController {
 
-	@RequestMapping("book")
+	@GetMapping(path="/book")
 	public List<Book> getAllbooks(){
 		
 
