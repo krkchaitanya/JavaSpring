@@ -12,11 +12,11 @@ public class Greeter {
 		greeter.greet(gtng);
 		
 		
-//		Lamda expressions.....using greeting interface
-	Greeting myLamdaFunction=()->{
+//		Lambda expressions.....using greeting interface
+	Greeting myLambdaFunction=()->{
 			System.out.println("hello lamdaExpressions..");
 		};
-		
+		myLambdaFunction.perform();
 		
 	
 }
