@@ -9,7 +9,6 @@ import java.util.List;
 @Service
 public class TopicService {
 
-
 //    mutating the object in an immutable way
     private List<Topic> topics=
          new ArrayList<>(Arrays.asList(
@@ -49,8 +48,4 @@ public class TopicService {
     public void deleteTopic(int id){
         topics.removeIf(t->t.getId()==id);
     }
-
-
-
-
 }
