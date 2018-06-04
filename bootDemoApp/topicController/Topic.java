@@ -38,7 +38,6 @@ public class Topic {
         this.description = description;
     }
 
-
     @Override
     public String toString() {
         return "Topic{" +
