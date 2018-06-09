@@ -9,7 +9,7 @@ public class ExerciseOne {
 
 	public static void main(String[] args) {
 		List<Person> people=Arrays.asList(
-				new Person("Charles","Dickens",60),
+				new Person("Charles","Dickens",60), 
 				new Person("John","simons",42),
 				new Person("chaitanya","krishna",55),
 				new Person("mikel","velayudam",52),
