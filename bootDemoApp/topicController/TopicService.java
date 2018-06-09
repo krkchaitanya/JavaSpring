@@ -27,12 +27,10 @@ public class TopicService {
         return topics.stream().filter((topics)->topics.getId()==id).findAny().get();
     }
 
-
 //    post / create method
     public void addTopic(Topic topic){
         topics.add(topic);
     }
-
 
 //    Update method
     public void updateTopic(int id,Topic topic){
